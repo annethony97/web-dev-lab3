@@ -1,0 +1,84 @@
+#container {
+    display: grid;
+    grid-template-columns: 700px 700px 700px;
+    grid-template-rows: 105px auto 15%;
+    width: 100vw;
+    height: 100vh;
+}
+
+#header {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 1;
+    display: flex;
+}
+
+#flexcontainer {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 2;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-image: url(img/dog_bg.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+#aboutus, #hours {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 325px;
+    height: 350px;
+    padding: 10px;
+    margin: 4% 2% 4% 2%;
+    background-color: #ffffffcf;
+    border-radius: 10px;
+}
+
+#price {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 325px;
+    height: 350px;
+    padding: 10px;
+    margin: 4% 2% 4% 2%;
+    background-color: #ffffffcf;
+    border-radius: 10px;
+}
+
+#hours {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 325px;
+    height: 350px;
+    padding: 10px;
+    margin: 4% 2% 4% 2%;
+    background-color: #ffffffcf;
+    border-radius: 10px;
+    float: left;
+}
+
+#footer {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 3;
+    display: flex;
+    float: left;
+}
+
+.logo {
+    display: block;
+    width: 20%;
+    margin: auto;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+#copyright {
+    width: 275px;
+    margin: auto;
+}

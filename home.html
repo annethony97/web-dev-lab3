@@ -7,27 +7,22 @@
         <meta name="keywords" content="dog care, dog hotel, dogboarding, minneapolis">
         <meta name="author" content="Annie Keller">
         <title>MPLS Dogboarding </title>
-        <style>
-            #container {
-                display: grid;
-                grid-template-columns: 150px 150px 150px;
-                grid-template-rows: 105px auto 15%;
-                width: 100vw;
-                height: 100vh;
-            }
-        </style>
+        <!--Linking External Stylesheet-->
+        <link rel="stylesheet" href="style.css">
+        <!--Linking Montserrat Font-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     </head>
     <body>
         <div id="container">
-            <header>
-                <img src="img\mpls_dog_logo.png" alt="">
+            <header id="header">
+                <img class="logo" src="img\mpls_dog_logo.png" alt="Logo for MPLS Dog Boarding">
             </header>
             <main id="flexcontainer">
-                <aside>
+                <aside id="aboutus">
                     <h2>About Us</h2>
                     <p>Quality dog care service - The luxury hotel for dogs!</p>
                 </aside>
-                <aside>
+                <aside id="price">
                     <h2>Price</h2>
                     <h3>Weekly Boarding</h3>
                     <p>$425 - 7 days [24 hours from drop-off time] </li>
@@ -36,7 +31,7 @@
                     
                     </ul>
                 </aside>
-                <aside>
+                <aside id="hours">
                     <h2>Hours of Operation</h2>
                     <ul>
                         <li>Monday: - 7am - 6pm</li>
@@ -47,7 +42,7 @@
                     </ul>
                 </aside>
             </main>
-            <footer>
+            <footer id="footer">
                 <div id="copyright">	&#169;  2019 - 2024 MPLS Dogboarding</div>
             </footer>
         </div>
